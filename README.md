@@ -1,15 +1,14 @@
 # Chess System
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
 
 # Sobre o projeto
 
 Treinamento em Java com o Professor Nelio Alves. Curso: Programação Orientada a Objetos em java.
 
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) 
+![Mobile 1](https://github.com/Matsuhe/Chess-system-java/blob/master/Imagens/label.png)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/Matsuhe/Chess-system-java/blob/master/Imagens/chess-system-design.png)
 
 # Tecnologias utilizadas
 
