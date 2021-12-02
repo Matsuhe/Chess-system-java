@@ -2,9 +2,11 @@ package chess;
 
 import boardgame.Board;
 import boardgame.Piece;
+import boardgame.Position;
 
-public abstract class  ChessPiece extends Piece {
-	private  Color color;
+public abstract class ChessPiece extends Piece {
+
+	private Color color;
 
 	public ChessPiece(Board board, Color color) {
 		super(board);
@@ -14,9 +16,13 @@ public abstract class  ChessPiece extends Piece {
 	public Color getColor() {
 		return color;
 	}
+	
+	protected boolean isThereOpponentPiece(Position position) {
+		ChessPiece p = (ChessPiece)getBoard().piece(position);
+		return p != null && p.getColor() != color;
+	}
+}
+	
 	// foi retirado o set pq n queremos que
 	// a cor seja modificada.
 	
-	
-	
-}
